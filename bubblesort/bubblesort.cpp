@@ -11,7 +11,7 @@ void input() {
 		if (n <= 20)
 			break;
 		else {
-			cout << "\ninArray dapat mempunyai maksimal 20 elemen.\n";
+			cout << "\nArray dapat mempunyai maksimal 20 elemen.\n";
 		}
 	}
 	cout << endl;
@@ -51,4 +51,13 @@ void display() {
 	}
 	cout << "jumlah pass = " << n - 1 << endl;
 	cout << endl;
+}
+
+int main() {
+	input();
+	bubblesortArray();
+	display();
+	system("pause");
+
+	return 0;
 }
