@@ -14,4 +14,8 @@ void input() {
 			cout << "\ninArray dapat mempunyai maksimal 20 elemen.\n";
 		}
 	}
+	cout << endl;
+	cout << "================" << endl;
+	cout << "Masukan Elemen Array" << endl;
+	cout << "================" << endl;
 }
